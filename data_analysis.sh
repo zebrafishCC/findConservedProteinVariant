@@ -1,3 +1,6 @@
+#This file contains the major steps for the project. Some important statistics are also shown in the data set.
+
+
 #screen for C T data
 awk '$4=="C" && $5=="T" {print $0}' clinvar_20181202.vcf | wc -l
 89225
